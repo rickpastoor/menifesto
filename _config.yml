@@ -1,0 +1,12 @@
+# Site settings
+title: Menifesto.nl
+email: menifesto@rickpastoor.nl
+description: ""
+baseurl: ""
+url: "http://menifesto.nl"
+twitter_username: menifesto
+github_username:  rickpastoor/menifesto
+
+# Build settings
+markdown: kramdown
+permalink: pretty
