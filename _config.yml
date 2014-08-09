@@ -1,7 +1,7 @@
 # Site settings
 title: Menifesto.nl
 email: menifesto@rickpastoor.nl
-description: ""
+description: "Menifesto is een maatstaf voor mannen."
 baseurl: ""
 url: "http://menifesto.nl"
 twitter_username: menifesto
@@ -10,3 +10,7 @@ github_username:  rickpastoor/menifesto
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+  hoofdstukken:
+    output: true
