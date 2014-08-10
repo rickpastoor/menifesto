@@ -18,9 +18,8 @@ body {
   background-color: #fdfdfd;
 }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
+a, a:active { color: #1A617C; text-decoration: none; }
+a:hover { color: #0C4A62; text-decoration: underline; }
 
 .container {
   max-width: 800px;
@@ -87,8 +86,14 @@ a:visited { color: #205caa; }
   margin: 8px 0;
 }
 
+.content h1 {
+  margin: 0 0 20px;
+  font-weight: 100;
+}
+
 .content h3 {
   margin: 0 0 10px;
+  font-weight: 100;
 }
 
 .content p {
@@ -98,7 +103,23 @@ a:visited { color: #205caa; }
 
 .content ul {
   list-style-position: inside;
-  margin: 0 0 20px;
+  margin: 0 0 20px 20px;
+}
+
+.content ul li {
+  margin: 0 0 8px;
+}
+
+.chapters {
+  border-top: 4px solid #E9E9E9;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.chapters h3 {
+  font-weight: 100;
+  margin: 0 0 10px;
+  font-size: 30px;
 }
 
 .chapters-list {

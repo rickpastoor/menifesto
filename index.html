@@ -19,15 +19,15 @@ layout: default
     <p>Doe je dat wel? Dan laat je zien dat je aan jezelf wilt werken en dat je <em>iedereen</em> toestaat je leven te toetsen aan het Menifesto.</p>
   </div>
 
-  <h3>Hoofdstukken</h3>
-
   <div class="chapters">
+    <h3>Hoofdstukken</h3>
+
     <ol class="chapters-list">
       {% for hoofdstuk in site.hoofdstukken %}
       <li>
         <a class="charter-link" href="{{ hoofdstuk.url | prepend: site.baseurl }}">{{ hoofdstuk.title }}</a>
       </li>
-    {% endfor %}
+      {% endfor %}
     </ol>
   </div>
 

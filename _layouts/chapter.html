@@ -10,12 +10,39 @@ layout: default
 
 <div class="container">
 
-<div class="content chapter">
+	<div class="content chapter">
 
-  <h1>{{ page.title }}</h1>
+	  <h1>{{ page.title }}</h1>
 
-  {{ content }}
+	  {{ content }}
 
-</div>
+	</div>
+
+	<div class="chapter-navigation">
+		{% for chapter in site.hoofdstukken %}
+		    {% if chapter.title == page.title %}
+		        {% unless forloop.last %}
+		            {% assign next = site.hoofdstukken[forloop.index] %}
+		            &rarr; <a href="{{ site.baseurl }}{{ next.url }}">Lees verder over <strong>{{ next.title }}</strong></a>
+		        {% endunless %}
+		    {% endif %}
+
+		{% endfor %}
+	</div>
+
+	<div class="chapters">
+		<h3>Hoofdstukken</h3>
+    	<ol class="chapters-list">
+	 		{% for hoofdstuk in site.hoofdstukken %}
+	      	<li>
+	      		{% if hoofdstuk.title == page.title %}
+	      			<a class="charter-link" href="{{ hoofdstuk.url | prepend: site.baseurl }}"><strong>{{ hoofdstuk.title }}</strong></a>
+	      		{% else %}
+	        		<a class="charter-link" href="{{ hoofdstuk.url | prepend: site.baseurl }}">{{ hoofdstuk.title }}</a>
+	        	{% endif %}
+	      	</li>
+	      	{% endfor %}
+      	</ol>
+	</div>
 
 </div>
