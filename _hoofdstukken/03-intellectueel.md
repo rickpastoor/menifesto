@@ -3,4 +3,5 @@ layout: chapter
 title: Intellectueel
 ---
 
-Ik besteedt tijd aan mijn persoonlijke groei en blijf leren.
+- Ik zet tijd apart om nieuwe dingen te leren
+- Ik kies bewust naar wat voor dingen ik kijk en hoe ik mijn vrije tijd opvul
