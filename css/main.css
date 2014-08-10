@@ -71,6 +71,7 @@ a:visited { color: #205caa; }
 
 .content p {
   margin: 0 0 15px;
+  line-height: 32px;
 }
 
 .content ul {
