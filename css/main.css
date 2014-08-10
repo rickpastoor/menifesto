@@ -143,3 +143,18 @@ a:hover { color: #0C4A62; text-decoration: underline; }
 .footer-links a, .footer-links a:active {
   color: #646464;
 }
+
+.edit-chapter {
+  float: right;
+  font-size: 14px;
+  background-color: #ccc;
+  border-radius: 3px;
+  color: #464646;
+  padding: 4px 7px;
+}
+
+.edit-chapter:hover {
+  text-decoration: none;
+  background-color: #D6D5D5;
+  color: #464646;
+}
