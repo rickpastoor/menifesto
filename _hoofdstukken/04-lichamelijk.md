@@ -13,7 +13,7 @@ title: Lichamelijk
 
 - Ga voor jezelf na wat er voor nodig is om gemotiveerd te zijn om te sporten
 - Zoek iemand om samen mee te sporten
-- Bedenk voor jezelf wat je belangrijk vind als het over voeding gaat
+- Bedenk voor jezelf wat je belangrijk vindt als het over voeding gaat
 
 ### Lezen
 
