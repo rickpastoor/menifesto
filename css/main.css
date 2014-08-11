@@ -180,6 +180,7 @@ a:hover { color: #0C4A62; text-decoration: underline; }
 
 .newsletter-form .email {
   width: 180px;
+  margin: 0 0 5px;
 }
 
 .newsletter-form .submit {
