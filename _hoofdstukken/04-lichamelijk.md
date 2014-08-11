@@ -8,6 +8,7 @@ title: Lichamelijk
 - Ik denk bewust na over wat, hoeveel en wanneer ik drink
 - Ik denk bewust na over mijn slaapritme
 - Ik rook niet
+- Ik gebruik geen drugs
 
 ### Hoe bouw je jezelf lichamelijk op?
 
