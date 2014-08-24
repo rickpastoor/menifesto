@@ -11,10 +11,11 @@ title: Integriteit
 
 ### Hoe bouw je aan integriteit?
 
-- begin klein: maak afspraken en doe alles om die afspraken vervolgens na te komen.
-- als het niet lukt om een afspraak na te komen, communiceer dit dan zo snel mogelijk
-- ga na of er afspraken zijn uit het verleden die je niet bent nagekomen en doe hier iets mee
-- zorg voor een betrouwbaar systeem om je afspraken in op te slaan
+- Begin klein: maak afspraken en doe alles om die afspraken vervolgens na te komen
+- Als het niet lukt om een afspraak na te komen, communiceer dit dan zo snel mogelijk
+- Ga na of er afspraken zijn uit het verleden die je niet bent nagekomen en doe hier iets mee
+- Zorg voor een betrouwbaar systeem om je afspraken in op te slaan
+- Zeg wat je doet en doe wat je zegt
 
 ### Lezen
 
